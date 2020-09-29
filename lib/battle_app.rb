@@ -47,10 +47,12 @@ class BattleApp
         #     loop: true
         #     )
         #     dunk
+        welcome
          end
 
     def how_to_play
         "Select 'play hoops' from the menu and drive the lane with the biggest stars from the NBA"
+        welcome
     end
 
 
