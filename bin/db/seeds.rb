@@ -1,7 +1,7 @@
 require "rest-client"#actually lets us hit end points
 require "json"#pasre response body into form we can use 
 require "pry"
-#require_relative '../config/environment'
+require_relative '../config/environment'
 
 
 api_response = RestClient.get("https://www.balldontlie.io/api/v1/players/")
@@ -30,11 +30,32 @@ puts  "You have chosen "
 print api_data3
 end 
 
-api_response4 = RestClient.get("https://www.balldontlie.io/api/v1/stats")
+##api_response4 = RestClient.get("https://www.balldontlie.io/api/v1/stats")
 
-api_data4 = JSON.parse(api_response4)
+##api_data4 = JSON.parse(api_response4)
 #api_data4.each {|stats| stats.create(stats)}
 
+
+Opponent.create({name:"Lebron James",team:"Lakers", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Anthony Davis",team:"Lakers", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Alex Caruso",team:"Lakers", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Rajon Rondo",team:"Lakers", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Kyle Kuzma",team:"Lakers", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Jamal Murray",team:"Nuggets", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Nikola Jokic",team:"Nuggets", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Michael Porter",team:"Nuggets", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Kawhi Leonard ",team:"Clippers", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Paul George",team:"Clippers", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Russell Westbrook",team:"Rockets", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"James Harden",team:"Rockets", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Luka Doncic",team:"Mavs", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Kristaps Porzingis",team:"Mavs", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Stephen Curry",team:"Warriors", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Klay Thompson",team:"Warriors", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Tyler Hero",team:"Heat", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Jimmu Buttler",team:"Heat", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Kyrie Irving",team:"Nets", Rebounds:,assits:, 3pts:  })
+Opponent.create({name:"Kevin Durant ",team:"Nets", Rebounds:,assits:, 3pts:  })
 
 
 
