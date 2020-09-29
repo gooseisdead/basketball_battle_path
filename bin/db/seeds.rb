@@ -59,8 +59,6 @@ Opponent.create({name:"Kevin Durant ",team:"Nets", Rebounds:7.1, Asts:4.1, 3pts:
 
 
 
-
-
 binding.pry 
 ## Hey mike 
  

@@ -40,7 +40,14 @@ class BattleApp
         puts ".....chug"
         sleep(1)
         puts "Sponsored by Gatorade"
-    end
+        # dunk = Sprite.new(
+        #     '/Users/gooseisdead/Flatiron/code/basketball_battle_path/lib/dunk.png',
+        #     clip_width: 84,
+        #     time: 300,
+        #     loop: true
+        #     )
+        #     dunk
+         end
 
     def how_to_play
         "Select 'play hoops' from the menu and drive the lane with the biggest stars from the NBA"
