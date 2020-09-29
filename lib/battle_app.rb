@@ -43,7 +43,8 @@ class BattleApp
     end
 
     def how_to_play
-        "Select 'play hoops' from the menu and drive the lane with on"
+        "Select 'play hoops' from the menu and drive the lane with the biggest stars from the NBA"
+    end
 
 
 
