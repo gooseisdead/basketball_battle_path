@@ -17,11 +17,34 @@ class BattleApp
         prompt = TTY::Prompt.new
         welcome = prompt.select("Welcome to the Battle", active_color: :cyan) do |menu|
             menu.choice 'Play Hoops'
-            menu.choice 'Choose a NBA Star'
             menu.choice 'Drink Gatorade'
-            menu.choice 'Retire'
+            menu.choice 'How to Play'
         end
+            if welcome == 'Play Hoops'
+                play_hoops
+            elsif welcome == 'Drink Gatorade'
+                drink_gatorade
+            else welcome == 'How to Play'
+                how_to_play
+            end
     end 
+
+    def play_hoops
+        #our method for player select.random
+    end
+
+    def drink_gatorade
+        sleep(0.5)
+        puts ".....chug"
+        sleep(0.5)
+        puts ".....chug"
+        sleep(1)
+        puts "Sponsored by Gatorade"
+    end
+
+    def how_to_play
+        "Select 'play hoops' from the menu and drive the lane with on"
+
 
 
     binding.pry
