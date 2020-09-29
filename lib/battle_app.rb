@@ -1,8 +1,8 @@
 require 'pry'
 require 'tty-prompt'
 require 'ruby2d'
+require_relative '../config/environment'
 #require 'embed'
-# require_relative '../config/environment'
 
 #embed src="file:///Users/victor/Downloads/NBA%20on%20ESPN%20&%20ABC%20Theme%20Music.mp3" 
 #autostart="true" 
@@ -24,7 +24,7 @@ class BattleApp
     end 
 
 
-    # binding.pry
+    binding.pry
 
     private
 
