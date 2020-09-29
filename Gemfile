@@ -9,3 +9,4 @@ gem "rest-client"
 gem 'tty', '~> 0.5.0'
 gem "activerecord"
 gem "rake"
+gem "ruby2d"
